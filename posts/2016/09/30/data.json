@@ -1,0 +1,72 @@
+{"gallery_items": [
+	{
+		"url" : "posts/2016/09/30/1.jpg",
+		"title" : "30/09/2016",
+        	"type" : "image"
+	},
+	{
+		"url" : "posts/2016/09/30/2.jpg",
+		"title" : "Film - typ niewspierany jeszcze",
+        	"type" : "image"
+	},
+	{
+		"url" : "posts/2016/09/30/3.jpg",
+		"title" : "30/09/2016",
+        	"type" : "image"
+	},
+	{
+		"url" : "posts/2016/09/30/4.jpg",
+		"title" : "30/09/2016",
+        	"type" : "image"
+	},
+	{
+		"url" : "posts/2016/09/30/5.jpg",
+		"title" : "30/09/2016",
+        	"type" : "image"
+	},
+	{
+		"url" : "posts/2016/09/30/6.jpg",
+		"title" : "30/09/2016",
+        	"type" : "image"
+	},
+	{
+		"url" : "posts/2016/09/30/7.jpg",
+		"title" : "30/09/2016",
+        	"type" : "image"
+	},
+	{
+		"url" : "posts/2016/09/30/8.jpg",
+		"title" : "30/09/2016",
+        	"type" : "image"
+	},
+	{
+		"url" : "posts/2016/09/30/9.jpg",
+		"title" : "30/09/2016",
+        	"type" : "image"
+	},
+	{
+		"url" : "posts/2016/09/30/10.jpg",
+		"title" : "30/09/2016",
+        	"type" : "image"
+	},
+	{
+		"url" : "posts/2016/09/30/11.jpg",
+		"title" : "30/09/2016",
+        	"type" : "image"
+	},
+	{
+		"url" : "posts/2016/09/30/12.jpg",
+		"title" : "30/09/2016",
+        	"type" : "image"
+	},
+	{
+        	"url" : "posts/2016/09/30/txt.html",
+		"title" : "30/09/2016",
+        	"type" : "ajax"
+	}
+]
+}
+
+
+
+

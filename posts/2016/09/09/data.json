@@ -1,0 +1,62 @@
+{"gallery_items": [
+	{
+		"url" : "posts/2016/09/09/1.jpg",
+		"title" : "DIAMOND DAYS",
+        	"type" : "image"
+	},
+	{
+		"url" : "posts/2016/09/09/1a.jpg",
+		"title" : " Find your own diamond and just make it real. Don't look back, just go ahead!",
+        	"type" : "image"
+	},
+	{
+		"url" : "posts/2016/09/09/2.jpg",
+		"title" : "DIAMOND DAYS",
+        	"type" : "image"
+	},
+	{
+		"url" : "posts/2016/09/09/3.jpg",
+		"title" : "DIAMOND DAYS",
+        	"type" : "image"
+	},
+	{
+		"url" : "posts/2016/09/09/4.jpg",
+		"title" : "DIAMOND DAYS",
+        	"type" : "image"
+	},
+	{
+		"url" : "posts/2016/09/09/5.jpg",
+		"title" : "DIAMOND DAYS",
+        	"type" : "image"
+	},
+	{
+		"url" : "posts/2016/09/09/6.jpg",
+		"title" : "DIAMOND DAYS",
+        	"type" : "image"
+	},
+	{
+		"url" : "posts/2016/09/09/7.jpg",
+		"title" : "DIAMOND DAYS",
+        	"type" : "image"
+	},
+	{
+		"url" : "posts/2016/09/09/8.jpg",
+		"title" : "DIAMOND DAYS",
+        	"type" : "image"
+	},
+	{
+		"url" : "posts/2016/09/09/9.jpg",
+		"title" : "DIAMOND DAYS",
+        	"type" : "image"
+	},
+	{
+        	"url" : "posts/2016/09/09/txt.html",
+		"title" : "DIAMOND DAYS",
+        	"type" : "ajax"
+	}
+]
+}
+
+
+
+

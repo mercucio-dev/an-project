@@ -1,0 +1,6 @@
+{"gallery_items": [
+{"url":"posts\/2017\/03\/22\/127.png","title":"Test","type":"image"},
+{"url":"posts\/2017\/03\/22\/DSC_0091.jpg","title":"Test","type":"image"},
+{"url" : "posts/2017/03/22/txt.html",
+"title" : "Test",
+"type" : "ajax"}]}

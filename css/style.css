@@ -1,0 +1,63 @@
+.container_triangle{
+    margin: auto 0;
+    margin-top: 50px;
+    font-size: 0;
+    max-width: 800px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.wrap {
+    -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
+    -moz-transform: rotate(45deg) translate3d(0, 0, 0);
+    -ms-transform: rotate(45deg) translate3d(0, 0, 0);
+    -o-transform: rotate(45deg) translate3d(0, 0, 0);
+    transform: rotate(45deg) translate3d(0, 0, 0);
+    display: inline-block;
+    -webkit-transition: -webkit-transform 300ms ease-out;
+    -moz-transition: -moz-transform 300ms ease-out;
+    transition: transform 300ms ease-out;
+    margin-left: 120px;
+    margin-top: 119px;
+}
+
+.crop {
+    position: relative;
+    width: 520px;
+    height: 520px;
+    margin: 0;
+    top: -220px;
+    left: -170px;
+    display: block;
+    overflow: hidden;
+    -webkit-transform: skew(20deg, 20deg) translate3d(0, 0, 0);
+    -moz-transform: skew(20deg, 20deg) translate3d(0, 0, 0);
+    -ms-transform: skew(20deg, 20deg) translate3d(0, 0, 0);
+    -o-transform: skew(20deg, 20deg) translate3d(0, 0, 0);
+    transform: skew(0deg, 0deg) translate3d(0, 0, 0);
+    border: 3px solid white;
+}
+
+.crop img {
+    width: 1050px;
+    height: 1000px;
+    position: absolute;
+    left: -10%;
+    margin-top: 36px;
+    margin-left: 36px;
+    top: 6%;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(-45deg);
+    opacity: 1;
+    -webkit-transition: opacity 300ms ease-in-out;
+    -moz-transition: opacity 300ms ease-in-out;
+    transition: opacity 300ms ease-in-out;
+}
+
+.crop img:hover {
+    opacity: 0.7;
+}
+

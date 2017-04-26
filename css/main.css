@@ -1,0 +1,311 @@
+body{
+    margin: 0;
+  background: #ff0090; /* For browsers that do not support gradients */
+/*  background: -webkit-linear-gradient(#ff0090, #1d1b1c);
+  background: -o-linear-gradient(#ff0090, #1d1b1c);
+  background: -moz-linear-gradient(#ff0090, #1d1b1c);
+  background: linear-gradient(#ff0090, #1d1b1c); */
+    /*background-image: url(../images/gradient4a.jpg);*/
+    background-image: url(../images/tlo1.jpg);
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#main-row{
+  #padding-top: 100px;
+  height: calc(90%);
+  position: relative;
+}
+
+
+.fill-height {
+    min-height: 100%;
+    height:auto !important; /* cross-browser */
+    height: 100%; /* cross-browser */
+}
+
+.container-fluid {
+    height: 100%;
+    overflow-y: hidden; /* don't show content that exceeds my height */
+}
+
+.v-bottom {
+    margin-top: 10%;
+}
+
+.v-top {
+    top: 100px;
+}
+
+.carousel-indicators li{display:none;}
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/*
+WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+now override the 3.3 new styles for modern browsers & apply opacity
+*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}
+
+.modal-wide .modal-dialog {
+  width: 90% !important;
+    min-height: 90% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-body{
+  background-image: url(../images/gradient6.jpg);
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.modal-footer{
+  background-color: white;
+  #color: white;
+}
+
+#zobacz_posty:hover{
+    cursor: pointer;
+}
+
+#napisz_do_mnie:hover{
+    cursor: pointer;
+}
+
+#kontakt{
+    #visibility: hidden;
+    display: none;
+    position: fixed;
+    #right: -600px;
+    right: 0px;
+    top: calc(50% - 200px);
+    #border: 2px solid blue;
+    #background-color: grey;
+    background-image: url("../images/diamond_mini_kontur_with_background.png");
+    background-size: cover;
+    width: 600px;
+    height: 412px;
+    max-width: 600px;
+    max-height: 412px;
+    text-align: center;
+    z-index: 10;
+    opacity: 0.9;
+    margin-top: 0;
+}
+
+.kontakt_anim{
+    display: block !important;
+}
+
+.cont{
+    width: 60%;
+    margin: auto;
+    #margin-top: -10px;
+}
+
+h3.cont {
+    opacity: 1;
+}
+
+input.cont {
+    opacity: 1;
+}
+
+.glyphicon-envelope {
+    font-size: 175px;
+    color: white;
+}
+
+#envelope_gone{
+    display: none;
+    position: fixed;
+    top: calc(50% - 150px);
+    right: 190px;
+    width: 180px;
+    height: 180px;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+.modal_menu{
+    padding: 20px;
+}
+
+.modal_menu a {
+    text-decoration: none;
+}
+
+.anim-post{
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+}
+
+#logo-type{
+    position: relative;
+    height: 100px;
+}
+
+#logo-type img{
+    position: absolute;
+    top: 30px;
+}
+
+.popup-json: hover{
+  cursor: pointer;
+}
+
+/* podział wg szerokości ekranu */
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+  .container{
+    position: relative;
+    #top: 15%;
+    padding-top: 10px;
+    width:100%;
+    height: 100%;}
+
+  #social{
+
+  }
+
+  .right-block{
+
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .container{
+    position: relative;
+    #top: 15%;
+    padding-top: 10px;
+    width:100%;
+    height: 100%;}
+
+    #social{
+      position: relative;
+      float: left;
+      top: 30%;
+    }
+
+    .right-block{
+      position: relative;
+      float: left;
+      top: -15px;
+      left: 6%;
+    }
+
+    .right-block:after{
+      clear: both;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container{
+    position: relative;
+    #top: 15%;
+    padding-top: 10px;
+    width:100%;
+    height: 100%;}
+
+    #social{
+      float: left;
+      position: relative;
+      top: -140px;
+    }
+
+    .right-block{
+      position: relative;
+      float: left;
+      top: -100px;
+      right: 0px;
+      margin-left: 220px;
+    }
+
+    .right-block:after{
+      clear: both;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+  .container{
+    position: relative;
+    top: 15%;
+    padding-top: 100px;
+    width:100%;
+    height: 100%;}
+
+  #social{
+    position: absolute;
+    top: 60%;
+    left: -18%;
+    z-index: 10;
+  }
+
+  .center-block {
+      position: relative;
+      #float: none !important;
+      display: table;
+      margin: 0 auto;
+      top: calc(20%);
+  }
+
+  .right-block{
+    position: absolute;;
+    top: -1%;
+    right: -14%;
+    z-index: 10;
+  }
+}
